@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Bricolage+Grotesque:opsz@10..48&family=Playfair+Display:ital,wght@0,500;1,400&display=swap");
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  /* font-family: "Bricolage Grotesque", sans-serif; */
+  font-family: 'Playfair Display', serif;
+  
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    color: white;
+    background-color: black;
+}
+nav ul li{
+   
+    padding: 0 15px;
+}
+.brand img{
+    margin: 5px;
+    padding: auto;
+    width: 50px;
+}
+.brand {
+   font-family: "Bricolage Grotesque", sans-serif;
+   display: flex;
+   align-items: center;
+   font-size: x-large;
+   font-weight: 500;
+   
+}
+.container{
+  min-height: 72vh;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin: 10px auto;
+  width: 75%;
+  border-radius: 15px;
+  padding: 35px;
+  background-image: url('cover.webp');
+  
+  background-size: cover;
+  
+ 
+}
+.bottom{
+   position: sticky;
+   height: 130px;
+   background-color: black;
+   bottom: 0;
+   display: flex;
+   color: white;
+   justify-content: center;
+   align-items: center;
+  flex-direction: column;
+}
+#myProgressBar{
+  cursor: pointer;
+  width:80vw;
+}
+.icons{
+  margin-top: 15px;
+}
+.icons i{
+  cursor: pointer;
+}
+.songItemContainer{
+  margin-top: 50px;
+}
+.songItem{
+   height: 50px;
+   width: 100%;
+   display: flex;
+   background-color: white;
+   color:black;
+   margin: 10px 0;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 34px;
+}
+.songItem img{
+  width: 45px;
+  height: 32px;
+  margin: 0 13px;
+  border-radius: 30px;
+}
+.timeStamp{
+  margin: 0 23px;
+}
+.timeStamp i{
+  cursor: pointer;
+}
+.songInfo{
+  position: absolute;
+  left: 10vw;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
